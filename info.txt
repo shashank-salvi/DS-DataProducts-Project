@@ -1,0 +1,49 @@
+<p><h3> Description of dataset :</h3>
+</p>
+<pre><b>
+VARIABLE DESCRIPTIONS:
+PassengerId     Unique ID for passenger
+Survived        Survival
+                (0 = No; 1 = Yes)
+Pclass          Passenger Class
+                (1 = First; 2 = Second; 3 = Third)
+Name            Name
+Sex             Sex
+Age             Age
+Sibsp           Number of Siblings/Spouses Aboard
+Parch           Number of Parents/Children Aboard
+Ticket          Ticket Number
+Fare            Passenger Fare
+Cabin           Cabin
+Embarked        Port of Embarkation
+                (C = Cherbourg; Q = Queenstown; S = Southampton)
+
+SPECIAL NOTES:
+Pclass is a proxy for socio-economic status (SES)
+ 1st ~ Upper; 2nd ~ Middle; 3rd ~ Lower
+
+Age is in Years; Fractional if Age less than One (1)
+ If the Age is Estimated, it is in the form xx.5
+
+With respect to the family relation variables (i.e. sibsp and parch)
+some relations were ignored.  The following are the definitions used
+for sibsp and parch.</b>
+</pre>
+<p>
+This application uses following variables from above for creating a model to predict Survival of a passenger:
+<ul>
+<li>Survived</li>
+<li>Pclass</li>
+<li>Sex</li>
+<li>Age</li>
+<li>Sibsp</li>
+<li>Parch</li>
+<li>Ticket</li>
+<li>Fare</li>
+<li>Embarked</li>
+</ul>
+The Outcome Variable : "Survived".<br/>
+The Predictor Variables : Pclass,Sex,Age,Sibsp,Parch,Ticket,Fare,Embarked<br/>
+The "Exploratory Analysis" tab allows to perform basic analysis of each column one at time.The user can use the Select Input in side panel to choose a variable.<br/>
+The "Create Predictive Model" tab allows select a variable and create a model and view its results.The user can use the Select Input in side panel to choose variables. It can also be used deselect a variable from model creation.<br/>
+</p>
